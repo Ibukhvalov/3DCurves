@@ -1,4 +1,6 @@
 ## Test work for the vacancy
-## Bukhvalov Ivan
+### Bukhvalov Ivan
 
-### implemented all given tasks with the parallel computing as additional requirement
+Implemented all given tasks with the parallel computing as additional requirement
+
+branch test is used to measure deviation of raw derivative from calculated ones.
