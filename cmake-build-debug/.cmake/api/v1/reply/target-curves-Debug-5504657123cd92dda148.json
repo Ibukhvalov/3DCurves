@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -47,12 +47,6 @@
 				"command" : 1,
 				"file" : 0,
 				"line" : 12,
-				"parent" : 0
-			},
-			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -79,10 +73,6 @@
 				{
 					"backtrace" : 4,
 					"path" : "D:/cpp/geometry"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "D:/cpp/geometry/curves"
 				}
 			],
 			"language" : "CXX",

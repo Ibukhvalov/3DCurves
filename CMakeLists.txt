@@ -10,7 +10,6 @@ find_package(OpenMP REQUIRED)
 include_directories(.)
 include_directories(containers)
 include_directories(geometry)
-include_directories(geometry/curves)
 
 add_executable(curves
         containers/circlesContainer.cpp
