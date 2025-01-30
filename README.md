@@ -3,4 +3,4 @@
 
 Implemented all given tasks with the parallel computing as additional requirement
 
-branch test is used to measure deviation of raw derivative from calculated ones.
+branch test is used to measure deviation of raw derivatives from calculated ones.
