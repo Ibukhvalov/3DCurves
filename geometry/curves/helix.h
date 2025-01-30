@@ -4,7 +4,7 @@
 #include "circle.h"
 #include <cmath>
 
-
+// Helix is not inheriting from Circle intentionally
 class Helix : public Curve {
 public:
     Helix(float radius, float step): radius(radius), step(step) {
