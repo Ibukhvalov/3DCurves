@@ -1,12 +1,6 @@
 #include "circlesContainer.h"
 
 
-
-#include <thread> // for std::this_thread::sleep_for
-#include <chrono> // for std::chrono::milliseconds
-
-
-
 CirclesContainer::CirclesContainer(const CurvesContainer &curveCont) {
     for(std::shared_ptr<Curve> curve : curveCont.get_curves()) {
         Circle* circle = dynamic_cast<Circle*>(curve.get());
