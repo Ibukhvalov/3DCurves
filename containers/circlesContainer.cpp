@@ -13,7 +13,7 @@ CirclesContainer::CirclesContainer(const CurvesContainer &curveCont) {
 }
 
 void CirclesContainer::sort_by_radius() {
-    sort(circles.begin(), circles.end(), [](std::shared_ptr<Circle> left, std::shared_ptr<Circle> right) {
+    sort(circles.begin(), circles.end(), [](const std::shared_ptr<Circle>& left, const std::shared_ptr<Circle>& right) {
         return left->get_radius() < right->get_radius();
     });
 }
@@ -22,7 +22,7 @@ float CirclesContainer::total_radius_sum() {
     float shared_result{};
 
     #pragma omp parallel for reduction(+:shared_result)
-    for(auto circle : circles)
+    for(const auto& circle : circles)
         shared_result += circle->get_radius();
 
     return shared_result;

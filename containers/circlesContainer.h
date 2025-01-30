@@ -11,7 +11,7 @@
 
 class CirclesContainer {
 public:
-    CirclesContainer(const CurvesContainer& curveCont);
+    explicit CirclesContainer(const CurvesContainer& curveCont);
 
     void sort_by_radius();
 

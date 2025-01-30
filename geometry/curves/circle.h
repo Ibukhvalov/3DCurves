@@ -2,15 +2,18 @@
 #define СPP_CIRCLE_H
 
 #include "curve.h"
+#include "../util.h"
 #include <cmath>
 
 class Circle : public Curve {
 public:
-    Circle(float radius): radius(radius) {
+    Circle(): Circle(rand_float() * config::MAX_RADIUS) {};
+
+    explicit Circle(float radius): radius(radius) {
         if (radius < 0.f) this->radius = 0.f;
     };
 
-    float get_radius() { return radius; }
+    float get_radius() const { return radius; }
 
     Point at(float t) override;
 

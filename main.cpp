@@ -3,6 +3,7 @@
 #include "containers/curvesContainer.h"
 #include <cmath>
 
+
 int main() {
     CurvesContainer curvCont(100,20,30);
     curvCont.print_at((float) M_PI_4);

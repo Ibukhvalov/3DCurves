@@ -4,7 +4,7 @@
 #include <iostream>
 
 struct Point {
-    float x,y,z;
+    float x, y, z;
 
     Point operator*(float t) const;
 

@@ -8,6 +8,7 @@
 class Curve {
 public:
     virtual Point at(float t) = 0;
+
     virtual Point derivative_at(float t) = 0;
 
     virtual ~Curve() = default;
@@ -17,6 +18,7 @@ public:
         Point der_at = derivative_at(t);
         std::cout << "There is a point " << point_at << " with a derivative equals " << der_at << " at " << t;
     }
+
 };
 
 
