@@ -1,0 +1,26 @@
+# ninja log v5
+11	861	7599581372306617	CMakeFiles/curves.dir/geometry/curves/ellipse.cpp.obj	ae50a285633b0832
+6	1621	7599581379851244	CMakeFiles/curves.dir/containers/curvesContainer.cpp.obj	c277dedf878b4aec
+864	1726	7599581380870622	CMakeFiles/curves.dir/geometry/curves/helix.cpp.obj	e95573243eb0fb89
+1	2010	7599581383439031	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1726	2486	7599581388505924	CMakeFiles/curves.dir/geometry/curves/circle.cpp.obj	90ff43afba212294
+2011	2741	7599581391114315	CMakeFiles/curves.dir/geometry/point.cpp.obj	ee0e75fd8f8cdf4f
+1622	2930	7599581393039554	CMakeFiles/curves.dir/main.cpp.obj	fd58d2769f70bb99
+2930	3166	7599581395223261	curves.exe	7b34e5f9ab2da898
+9	1649	7599581655552108	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1649	1881	7599581657700803	curves.exe	7b34e5f9ab2da898
+5	1470	7599585388176731	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1470	1697	7599585390185489	curves.exe	7b34e5f9ab2da898
+5	1539	7599586493810624	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1539	1758	7599586495795607	curves.exe	7b34e5f9ab2da898
+5	1643	7599586597167419	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1643	1862	7599586599146198	curves.exe	7b34e5f9ab2da898
+4	1212	7599586731114290	CMakeFiles/curves.dir/main.cpp.obj	fd58d2769f70bb99
+1212	1478	7599586733502821	curves.exe	7b34e5f9ab2da898
+5	1179	7599586876099849	CMakeFiles/curves.dir/main.cpp.obj	fd58d2769f70bb99
+1180	1406	7599586878178565	curves.exe	7b34e5f9ab2da898
+5	1439	7599587007431253	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1439	1748	7599587010009664	curves.exe	7b34e5f9ab2da898
+17	1736	7599590280819068	CMakeFiles/curves.dir/main.cpp.obj	fd58d2769f70bb99
+6	1925	7599590282768726	CMakeFiles/curves.dir/containers/circlesContainer.cpp.obj	f23c8609c0308480
+1925	2360	7599590287000855	curves.exe	7b34e5f9ab2da898
