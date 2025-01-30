@@ -8,7 +8,14 @@ struct Point {
 
     Point operator*(float t) const;
 
+    Point operator/(float t) const;
+
     Point operator+(const Point &other) const;
+
+    Point operator-(const Point &other) const;
+
+    float deviation_value(const Point &other) const;
+
 };
 
 std::ostream& operator<<(std::ostream& out, const Point& p);

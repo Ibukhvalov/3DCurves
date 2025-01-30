@@ -2,7 +2,7 @@
 
 
 Point Ellipse::at(float t) {
-    return {a * cosf(t), b* sinf(t), 0};
+    return {a * cosf(t), b * sinf(t), 0};
 }
 
 

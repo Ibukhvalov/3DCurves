@@ -27,7 +27,8 @@ add_executable(curves
         geometry/point.h
         main.cpp
         util.h
-        geometry/point.cpp)
+        geometry/point.cpp
+        geometry/curves/curve.cpp)
 
 if(OPENMP_FOUND)
     message(STATUS "OpenMP found")

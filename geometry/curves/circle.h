@@ -16,6 +16,7 @@ public:
 
     Point derivative_at(float t) override;
 
+
 private:
     float radius;
 };

@@ -9,3 +9,4 @@ Point Circle::derivative_at(float t) {
     return Point{- sinf(t), cosf(t), 0} * radius;
 }
 
+

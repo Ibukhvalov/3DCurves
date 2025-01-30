@@ -24,7 +24,7 @@ CurvesContainer::CurvesContainer(unsigned int num_of_circles,
 
 
 void CurvesContainer::print_at(float t) {
-    for(auto curve : curves) {
+    for(const auto& curve : curves) {
         curve->print_at(t);
         std::cout << std::endl;
     }
