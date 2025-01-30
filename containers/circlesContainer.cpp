@@ -25,10 +25,11 @@ void CirclesContainer::sort_by_radius() {
 }
 
 float CirclesContainer::total_radius_sum() {
-    float result{};
+    float shared_result{};
 
+    #pragma omp parallel for reduction(+:shared_result)
     for(auto circle : circles)
-        result += circle->get_radius();
+        shared_result += circle->get_radius();
 
-    return result;
+    return shared_result;
 }
