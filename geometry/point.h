@@ -9,8 +9,6 @@ struct Point {
     Point operator*(float t) const;
 
     Point operator+(const Point &other) const;
-
-    Point& with_z(float new_z);
 };
 
 std::ostream& operator<<(std::ostream& out, const Point& p);
